@@ -1,4 +1,4 @@
-python >= 3.5
+python == 3.8
 pylint == 2.4.3
 pytest == 5.2.2
 pytest-html == 2.0.0
