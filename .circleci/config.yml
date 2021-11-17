@@ -2,7 +2,7 @@ version: 2.1
 workflows:
   test-deploy:
     jobs:
-      - test
+      - hello world
 jobs:
   build:
     docker:
@@ -10,3 +10,4 @@ jobs:
     steps:
       - checkout
       - run: python --version
+      - run: test_hello_world.py 
